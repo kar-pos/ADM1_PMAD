@@ -3,9 +3,11 @@ Matlab implementations of Pomp-Mixed Anaerobic Digestion in [R4 simplifications 
 ## Project description
 Althought variouse ADM1 implementations are avaible, including important simplifications, the avaiblity of tools to simulate process modifications in AD is very limited. In this project, the model of Pomp-Mixed Anaerobic Digestion have been developed. The model consider 3-section structer of PM reactor to avoid partially differential equations. The project connect our previouse [EBS implementation](https://ich.postawa.eu/extended-biogas-simulator/) with simplicity and clarity of ADM1-R4, to make it more accesable for a wider audience. The overal concept of the model is presented below:
 
-The tool is desined to provide a support for design of instalation using novel AD method, where conventional stirrer is replaced with external pomp. This approach lets to limit energy consumption during fermemntation process, as well as improve overal efficiency by strong vertical mixing. The implementation is part of the Master Thesis of Eng. Justyna Małyszew, supervided by Dr Eng. Karol Postawa.
+<p align="center"><img src="https://github.com/kar-pos/ADM1_PMAD/blob/main/Documentation/PMAD_reactor.png" width=50% height=50%></p>
 
-Alingside the main model code, tools for sensitivity analysis and model optimization are shared. Also an example (case study) of model utilization in optimization of process farameters for biogas plant design is provided.
+The tool is desined to provide a support for design of instalation using novel AD method, where conventional stirrer is replaced with external pomp. This approach lets to limit energy consumption during fermemntation process, as well as improve overal efficiency by strong vertical mixing. The implementation is part of the Master Thesis of Eng. Justyna Małyszew, supervided by Dr Eng. Karol Postawa at [Wrocław University of Science and Technology](https://pwr.edu.pl/en/)
+
+Alongside the [main model](https://github.com/kar-pos/ADM1_PMAD/tree/main/Pomp-mixed%20Anaerobic%20Digestion%20Mode) code, tools for [sensitivity analysis and model optimization](https://github.com/kar-pos/ADM1_PMAD/tree/main/Model%20optimization) are shared. Also an example ([case study](https://github.com/kar-pos/ADM1_PMAD/tree/main/Raw%20parameter%20optimization%20(case%20study))) of model utilization in optimization of process farameters for biogas plant design is provided.
 
 ## Literature
 ### Our implementations
