@@ -4,7 +4,7 @@
 %Chemical Technology major
 %Supervisor Dr eng. Karol Postawa 
 
-function Z=objectivity(o)
+function Z=objectiv(o)
 
 %Data import
 p=Indata_R4;
@@ -15,8 +15,8 @@ y0=[0.0910;0.5081;0.9439;956.9610;9.39;5.34;11.680;2.5693;0.3148;0.7805;
     0.0910;0.5081;0.9439;956.9610;9.39;5.34;11.680;2.5693];
 
 %ODE solver
-[t,solution]= ode15s(@(t,x) optimalisation_model(t,x,p,o), [0, 57], y0);
-[~,q_gas,pCH4g,pCO2g]=cellfun(@(t,x) optimalisation_model(t,x,p,o),num2cell(t),num2cell(solution,2),'uni',0);
+[t,solution]= ode15s(@(t,x) optimization_model(t,x,p,o), [0, 57], y0);
+[~,q_gas,pCH4g,pCO2g]=cellfun(@(t,x) optimization_model(t,x,p,o),num2cell(t),num2cell(solution,2),'uni',0);
 
 %Taking steady state values of biogas stream and gas products percentage content for objectivity function 
 q_gas=cell2mat(q_gas); q_gas=q_gas(end);

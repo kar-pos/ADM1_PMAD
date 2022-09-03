@@ -4,7 +4,6 @@
 %Chemical Technology major
 %Supervisor Dr eng. Karol Postawa 
 
-function sensitivity_pump_model()
 clear all
 close all
 %import data
@@ -44,15 +43,14 @@ grid on
 set(get(bfigure,'Child'),'XTick',[10 20 30 40 50 60 70])
 set(get(bfigure,'Child'),'XTickLabel',{'10' '20' '30' '40' '50' '60' '70'})
 set(get(bfigure,'Child'),'Yscale','log')
-title('Model's sensitivity analysis','fontsize',30)
+title('Model sensitivity analysis','fontsize',30)
 bar(abs(diff_vec))
 set(get(bfigure,'Child'), 'XTick', [10 20 30 40 50 60 70])
 set(get(bfigure,'Child'), 'XTickLabel', {'10' '20' '30' '40' '50' '60' '70'})
-title('Model's sensitivity analysis', 'fontSize', 20)
+title('Model sensitivity analysis', 'fontSize', 20)
 xlabel('Parameter', 'fontSize', 10)
 ylabel('|f(x * 1.01)−f(x)|','interp','latex', 'fontSize', 10)
 grid on
-end
 
 %Calculating new biogas value
 function mean_gas = calculate_mean_gas(p,y0)
@@ -116,4 +114,4 @@ position(11)=p.k_pr;
 position(12)=p.k_li;
 position(13)=p.k_dec;
 position(14)=p.q_in;
-end 
+end

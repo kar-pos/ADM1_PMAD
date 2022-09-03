@@ -8,7 +8,7 @@
 rng default
 
 %import of objectivity function
-fun=@objectivity;
+fun=@objectiv;
 
 %Global search function 
 gs = GlobalSearch('Display','iter');
