@@ -11,6 +11,8 @@ Alongside the [main model](https://github.com/kar-pos/ADM1_PMAD/tree/main/Pomp-m
 
 ## Literature
 ### Our implementations
+Postawa, K., Małyszew, J., Jaroszewska, K., Wrzesińska-Jędrusiak, E., 2023. Adapting R4 simplifications of Anaerobic Digestion Model No. 1 (ADM1-R4) for pump-mixed biogas production. Fuel 351, 128794. https://doi.org/10.1016/j.fuel.2023.128794
+
 Postawa K, Szczygieł J, Wrzesińska-Jędrusiak E, Klimek K, Kułażyński M. The pump-mixed anaerobic digestion of pig slurry: new technology and mathematical modeling. Waste Management 2021;123:111–9. https://doi.org/10.1016/j.wasman.2021.01.016.
 
 Postawa K, Szczygieł J, Kułażyński M. Innovations in anaerobic digestion: a model-based study. Biotechnology for Biofuels 2021;14:19. https://doi.org/10.1186/s13068-020-01864-z.
